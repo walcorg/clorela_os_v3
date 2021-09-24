@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Clorela_OS</class>
+ <widget class="QMainWindow" name="Clorela_OS">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Clorela_OS</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuACCOUNT">
+    <property name="title">
+     <string>ACCOUNT</string>
+    </property>
+    <widget class="QMenu" name="menuMY_PROFILE">
+     <property name="title">
+      <string>MY PROFILE</string>
+     </property>
+     <addaction name="actionUSER_DATA"/>
+     <addaction name="actionADDRESS_WALLETT"/>
+    </widget>
+    <addaction name="actionMY_PROFILE"/>
+    <addaction name="menuMY_PROFILE"/>
+    <addaction name="actionINITIATE_UPLOAD"/>
+    <addaction name="actionSTOP_UPLOAD"/>
+    <addaction name="actionSIGN_OFF"/>
+   </widget>
+   <widget class="QMenu" name="menuINTERFACE">
+    <property name="title">
+     <string>INTERFACE</string>
+    </property>
+    <widget class="QMenu" name="menuUI">
+     <property name="title">
+      <string>UI</string>
+     </property>
+     <addaction name="actionGRAPHIC"/>
+     <addaction name="actionNUMERIC"/>
+    </widget>
+    <addaction name="menuUI"/>
+    <addaction name="actionLANGUAGE"/>
+   </widget>
+   <widget class="QMenu" name="menuSETTINGS">
+    <property name="title">
+     <string>SETTINGS</string>
+    </property>
+    <addaction name="actionCONFIGURE_WI_FI"/>
+    <addaction name="actionCONFIGURE_SERVER"/>
+   </widget>
+   <widget class="QMenu" name="menuOPTIONS">
+    <property name="title">
+     <string>OPTIONS</string>
+    </property>
+    <addaction name="actionSEARCH_FOR_UPDATES"/>
+    <addaction name="actionCONNECTION_PROPERTIES"/>
+   </widget>
+   <widget class="QMenu" name="menuHELP">
+    <property name="title">
+     <string>HELP</string>
+    </property>
+    <addaction name="actionABOUT_CLORELA"/>
+    <addaction name="actionABOUT_WALCORG"/>
+    <addaction name="actionREPORT_PROBLEM"/>
+   </widget>
+   <addaction name="menuACCOUNT"/>
+   <addaction name="menuINTERFACE"/>
+   <addaction name="menuSETTINGS"/>
+   <addaction name="menuOPTIONS"/>
+   <addaction name="menuHELP"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionMY_PROFILE">
+   <property name="text">
+    <string>SIGN IN</string>
+   </property>
+  </action>
+  <action name="actionINITIATE_UPLOAD">
+   <property name="text">
+    <string>INITIATE UPLOAD</string>
+   </property>
+  </action>
+  <action name="actionSTOP_UPLOAD">
+   <property name="text">
+    <string>STOP UPLOAD</string>
+   </property>
+  </action>
+  <action name="actionSIGN_OFF">
+   <property name="text">
+    <string>SIGN OFF</string>
+   </property>
+  </action>
+  <action name="actionUSER_DATA">
+   <property name="text">
+    <string>USER DATA</string>
+   </property>
+  </action>
+  <action name="actionADDRESS_WALLETT">
+   <property name="text">
+    <string>ADDRESS WALLETT</string>
+   </property>
+  </action>
+  <action name="actionLANGUAGE">
+   <property name="text">
+    <string>LANGUAGE</string>
+   </property>
+  </action>
+  <action name="actionGRAPHIC">
+   <property name="text">
+    <string>GRAPHIC</string>
+   </property>
+  </action>
+  <action name="actionNUMERIC">
+   <property name="text">
+    <string>NUMERIC</string>
+   </property>
+  </action>
+  <action name="actionCONFIGURE_WI_FI">
+   <property name="text">
+    <string>CONFIGURE WI-FI</string>
+   </property>
+  </action>
+  <action name="actionCONFIGURE_SERVER">
+   <property name="text">
+    <string>CONFIGURE SERVER</string>
+   </property>
+  </action>
+  <action name="actionSEARCH_FOR_UPDATES">
+   <property name="text">
+    <string>SEARCH FOR UPDATES</string>
+   </property>
+  </action>
+  <action name="actionCONNECTION_PROPERTIES">
+   <property name="text">
+    <string>CONNECTION PROPERTIES</string>
+   </property>
+  </action>
+  <action name="actionABOUT_CLORELA">
+   <property name="text">
+    <string>ABOUT CLORELA</string>
+   </property>
+  </action>
+  <action name="actionABOUT_WALCORG">
+   <property name="text">
+    <string>ABOUT WALCORG</string>
+   </property>
+  </action>
+  <action name="actionREPORT_PROBLEM">
+   <property name="text">
+    <string>REPORT PROBLEM</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
